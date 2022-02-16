@@ -63,8 +63,7 @@ function App() {
     <div className="App">
       <div className="container-fluid p-0 m-0">
         <Header />
-     
-      <br />
+        <br />
       <div className="container">
         <Search handleSearchNoteText={setSearchtext} />
       </div>
