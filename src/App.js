@@ -64,20 +64,19 @@ function App() {
       <div className="container-fluid p-0 m-0">
         <Header />
         <br />
-      <div className="container">
-        <Search handleSearchNoteText={setSearchtext} />
+        <div className="container">
+          <Search handleSearchNoteText={setSearchtext} />
+        </div>
+        <NoteList
+          notes={notes.filter((note) =>
+            note.text.toLowerCase().includes(searchText)
+          )}
+          handleAddNote={addNote}
+          handleDeleteNote={deleteNote}
+        />
+        <br />
       </div>
-      <NoteList
-        notes={notes.filter((note) =>
-          note.text.toLowerCase().includes(searchText)
-        )}
-        handleAddNote={addNote}
-        handleDeleteNote={deleteNote}
-      />
-      <br />
-      
-    </div>
-    <Footer />
+      <Footer />
     </div>
   );
 }
