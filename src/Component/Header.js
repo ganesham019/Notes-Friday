@@ -3,11 +3,11 @@ import { MdEventNote } from "react-icons/md";
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg  shadow  d-flex justify-content-between mx-auto p-3">
+      <nav class="navbar navbar-expand-lg  shadow-sm  d-flex justify-content-between mx-auto p-3">
         <p className="text-dark">
           <MdEventNote />
         </p>
-        <p className="text-dark mx-auto ">Noet Raeder</p>
+        <p className=" mx-auto ">Noet Raeder</p>
       </nav>
      
     </div>

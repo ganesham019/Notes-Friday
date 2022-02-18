@@ -17,7 +17,6 @@ const AddNotes = ({ handleAddNote }) => {
     }
   };
 
-  
   return (
     <div>
       <div className="note new">
