@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { nanoid } from "nanoid";
+import { nanoid } from 'nanoid';
 import NoteList from "./Component/NoteList";
 import Search from "./Component/Search";
 import Header from "./Component/Header";
@@ -13,6 +13,9 @@ function App() {
       text: "Hurry! Begins",
       date: "05/02/22",
     },
+
+
+    
     // {
     //   id: nanoid(),
     //   text: "Hurry! This is first Note",
